@@ -1796,7 +1796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3822525281839508011
 Transform:
   m_ObjectHideFlags: 0
@@ -2457,9 +2457,11 @@ MonoBehaviour:
   table:
   - items:
     - Spawn: {fileID: 11400000, guid: 1300809d978664042972f6c0d6e1e76d, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: 60cd0bec310ec7540b515e94e0262da2, type: 2}
+      SpawnName: 
       Rate: 0
   positions:
   - {fileID: 4306379805771905190}
@@ -6414,16 +6416,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 03dc3e35a1aa9b643ad891325c75d979, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 03dc3e35a1aa9b643ad891325c75d979, type: 3}
       propertyPath: m_MotionVectors
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 03dc3e35a1aa9b643ad891325c75d979, type: 3}
       propertyPath: m_StitchLightmapSeams
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 03dc3e35a1aa9b643ad891325c75d979, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 03dc3e35a1aa9b643ad891325c75d979, type: 3}
       propertyPath: m_Materials.Array.data[0]

@@ -73,7 +73,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.78
+  m_Intensity: 3
   m_Range: 20.24
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -197,12 +197,15 @@ MonoBehaviour:
   table:
   - items:
     - Spawn: {fileID: 11400000, guid: d68bd58e8715013468aad9d947b760e0, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: b4eae5fa0725a004e9990ed27adb3094, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: 11e3960557ce51544b7df97be66ef1a4, type: 2}
+      SpawnName: 
       Rate: 100
   positions:
   - {fileID: 6961301473392040221}
@@ -317,7 +320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1686448342609743502
 Transform:
   m_ObjectHideFlags: 0
@@ -361,13 +364,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686448342938075936}
-  m_LocalRotation: {x: -0, y: 0.82050127, z: -0.5716448, w: 0}
-  m_LocalPosition: {x: 2.719, y: -0.35999995, z: 0.0020000935}
+  m_LocalRotation: {x: -0, y: 0.86732405, z: -0.49774382, w: 0}
+  m_LocalPosition: {x: 2.719, y: -0.35999995, z: 0.0020000853}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1686448342609743502}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 69.73, y: -179.99998, z: 0}
+  m_LocalEulerAnglesHint: {x: 59.702003, y: -179.99998, z: 0}
 --- !u!108 &1686448342938075938
 Light:
   m_ObjectHideFlags: 0
@@ -379,9 +382,9 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10.66
-  m_Range: 10
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Intensity: 10
+  m_Range: 11
   m_SpotAngle: 67
   m_InnerSpotAngle: 34.567623
   m_CookieSize: 10
@@ -472,7 +475,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 4
+  m_Intensity: 3
   m_Range: 19.08
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -564,7 +567,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.78
+  m_Intensity: 3
   m_Range: 20.24
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -966,7 +969,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.44
+  m_Intensity: 3
   m_Range: 13.3
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1030,7 +1033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4034463553782064154
 Transform:
   m_ObjectHideFlags: 0
@@ -1587,7 +1590,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 7fdd633dd1bd488418f2db8c0c5c9df4, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 83c7db492918f29478b8d7accfd8010e, type: 2}
+      objectReference: {fileID: 2100000, guid: 533a4515bb81a4040a7a8f3ae0cce585, type: 2}
     - target: {fileID: 2300000, guid: 7fdd633dd1bd488418f2db8c0c5c9df4, type: 3}
       propertyPath: m_Materials.Array.data[3]
       value: 
