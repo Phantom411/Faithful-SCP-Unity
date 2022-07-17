@@ -75,12 +75,15 @@ MonoBehaviour:
   table:
   - items:
     - Spawn: {fileID: 11400000, guid: d68bd58e8715013468aad9d947b760e0, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: 375f6a1ef6ad03a41ab36a43972d74e4, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: 30caa0a4dfff0b24db46784dcbb0a316, type: 2}
+      SpawnName: 
       Rate: 100
   positions:
   - {fileID: 3851281905621517977}
@@ -360,7 +363,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 4.73
+  m_Intensity: 3
   m_Range: 7.122509
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -452,7 +455,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3.93
+  m_Intensity: 3
   m_Range: 7.93
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -604,7 +607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4030896018304393417}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.65, z: 1.919}
+  m_LocalPosition: {x: 0, y: 2.778, z: 1.925}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2575777248385470309}
@@ -622,7 +625,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3.93
+  m_Intensity: 3
   m_Range: 7.93
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -714,7 +717,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.21
+  m_Intensity: 2
   m_Range: 7.122509
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -884,7 +887,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 7.122509
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -948,7 +951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4287557137592332583
 Transform:
   m_ObjectHideFlags: 0
@@ -981,7 +984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2575777248385470309
 Transform:
   m_ObjectHideFlags: 0

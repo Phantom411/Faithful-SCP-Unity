@@ -349,7 +349,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.69
+  m_Intensity: 2
   m_Range: 7.32
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -488,7 +488,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 6.04
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -705,7 +705,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.36
+  m_Intensity: 2
   m_Range: 7.32
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -797,7 +797,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.7709094, b: 0.6745283, a: 1}
-  m_Intensity: 1.55
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -830,7 +830,7 @@ Light:
     m_UseCullingMatrixOverride: 0
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
-  m_Flare: {fileID: 12100000, guid: 055403e8b723c494a9d89d3e0a8d5da7, type: 2}
+  m_Flare: {fileID: 0}
   m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
@@ -889,7 +889,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.57
+  m_Intensity: 2
   m_Range: 6
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -981,7 +981,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.39
+  m_Intensity: 2
   m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1298,9 +1298,11 @@ MonoBehaviour:
   table:
   - items:
     - Spawn: {fileID: 11400000, guid: 3d0a59cf92c8f6948be26c4162b4533f, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: 91dc436c5b1ca704897ebda55977952d, type: 2}
+      SpawnName: 
       Rate: 100
   positions:
   - {fileID: 8215106920074608307}
@@ -1495,7 +1497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8215106919924017903
 Transform:
   m_ObjectHideFlags: 0

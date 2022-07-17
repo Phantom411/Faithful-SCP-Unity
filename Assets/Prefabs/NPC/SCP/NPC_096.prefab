@@ -529,6 +529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SCP096
       objectReference: {fileID: 0}
+    - target: {fileID: 4693583136915661399, guid: e5c6fa97097f5ee4f854f7c262345974,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5c6fa97097f5ee4f854f7c262345974, type: 3}
 --- !u!1 &4260331752122270707 stripped

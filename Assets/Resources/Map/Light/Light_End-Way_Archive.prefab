@@ -103,7 +103,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.22
+  m_Intensity: 3
   m_Range: 8.105253
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -349,7 +349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5082301982580570813
 Transform:
   m_ObjectHideFlags: 0
@@ -439,7 +439,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.22
+  m_Intensity: 3
   m_Range: 5.5448537
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -638,45 +638,62 @@ MonoBehaviour:
   table:
   - items:
     - Spawn: {fileID: 11400000, guid: 61025a58376d41e4ba8f7bef36d22fa8, type: 2}
+      SpawnName: 
       Rate: 40
     - Spawn: {fileID: 11400000, guid: 41fd53794b8d86149a5a8282a817aca3, type: 2}
+      SpawnName: 
       Rate: 40
     - Spawn: {fileID: 11400000, guid: 7031c0f050218f14bb910dc4c6f62b05, type: 2}
+      SpawnName: 
       Rate: 40
     - Spawn: {fileID: 11400000, guid: c0347fde77790f643a85614d14acd19e, type: 2}
+      SpawnName: 
       Rate: 40
     - Spawn: {fileID: 11400000, guid: 5c5be602503e5d44f8b9a7abc0044131, type: 2}
+      SpawnName: 
       Rate: 40
     - Spawn: {fileID: 11400000, guid: 503f8bce1af36de4284ea9d680db1cdf, type: 2}
+      SpawnName: 
       Rate: 40
     - Spawn: {fileID: 11400000, guid: e691efaac998cea45bcf7abc3147d8ed, type: 2}
+      SpawnName: 
       Rate: 40
   - items:
     - Spawn: {fileID: 11400000, guid: d68bd58e8715013468aad9d947b760e0, type: 2}
+      SpawnName: 
       Rate: 10
     - Spawn: {fileID: 11400000, guid: d68bd58e8715013468aad9d947b760e0, type: 2}
+      SpawnName: 
       Rate: 10
   - items:
     - Spawn: {fileID: 11400000, guid: ffe1f7833f0529143a41d7831537ffc2, type: 2}
+      SpawnName: 
       Rate: 10
   - items:
     - Spawn: {fileID: 11400000, guid: 30caa0a4dfff0b24db46784dcbb0a316, type: 2}
+      SpawnName: 
       Rate: 16
   - items:
     - Spawn: {fileID: 11400000, guid: 375f6a1ef6ad03a41ab36a43972d74e4, type: 2}
+      SpawnName: 
       Rate: 16
   - items:
     - Spawn: {fileID: 11400000, guid: 11e3960557ce51544b7df97be66ef1a4, type: 2}
+      SpawnName: 
       Rate: 19
   - items:
     - Spawn: {fileID: 11400000, guid: bbf0e94c69882fc48b8c2defc2a15ae3, type: 2}
+      SpawnName: 
       Rate: 19
   - items:
     - Spawn: {fileID: 11400000, guid: 969628d9d5f0a1e40a7e467cd91b82f4, type: 2}
+      SpawnName: 
       Rate: 10
     - Spawn: {fileID: 11400000, guid: cf50739faa4cd0a43ac504519ccdd824, type: 2}
+      SpawnName: 
       Rate: 10
     - Spawn: {fileID: 11400000, guid: a18f8a7bbb8f97a4689fd549e49b9a6c, type: 2}
+      SpawnName: 
       Rate: 10
   positions:
   - {fileID: 5082301982089216758}

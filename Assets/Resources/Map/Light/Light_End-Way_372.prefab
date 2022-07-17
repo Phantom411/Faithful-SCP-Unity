@@ -43,7 +43,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.07
+  m_Intensity: 2
   m_Range: 9.73
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -165,7 +165,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.07
+  m_Intensity: 2
   m_Range: 9.73
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -231,7 +231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &652420442623616834
 Transform:
   m_ObjectHideFlags: 0
@@ -335,7 +335,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.76
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -457,7 +457,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.07
+  m_Intensity: 2
   m_Range: 9.73
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -611,7 +611,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.07
+  m_Intensity: 2
   m_Range: 9.73
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -703,7 +703,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.16
+  m_Intensity: 3
   m_Range: 11.46
   m_SpotAngle: 101.9052
   m_InnerSpotAngle: 83.08718
@@ -795,7 +795,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.07
+  m_Intensity: 2
   m_Range: 9.73
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -887,7 +887,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.07
+  m_Intensity: 2
   m_Range: 9.73
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -981,7 +981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &652420444256116067
 Transform:
   m_ObjectHideFlags: 0
@@ -1136,15 +1136,19 @@ MonoBehaviour:
   table:
   - items:
     - Spawn: {fileID: 11400000, guid: 728da1ce7f2a81c4f9babab3cd6fc009, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: a196a5e83120d2f409aa26c08064ed95, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: bbf0e94c69882fc48b8c2defc2a15ae3, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: 30caa0a4dfff0b24db46784dcbb0a316, type: 2}
+      SpawnName: 
       Rate: 100
   positions:
   - {fileID: 652420444213516033}

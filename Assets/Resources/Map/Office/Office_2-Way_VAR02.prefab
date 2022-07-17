@@ -451,7 +451,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.9
+  m_Intensity: 2
   m_Range: 12.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -515,7 +515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6497916052062339870
 Transform:
   m_ObjectHideFlags: 0
@@ -532,7 +532,6 @@ Transform:
   - {fileID: 5049844854492545545}
   - {fileID: 300254403957202961}
   - {fileID: 7895843572146812601}
-  - {fileID: 8970757219520345993}
   - {fileID: 6928147583709748996}
   m_Father: {fileID: 8754087371850540395}
   m_RootOrder: 1
@@ -566,7 +565,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6497916052062339870}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &6272237041488849556
 Light:
@@ -580,7 +579,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.9
+  m_Intensity: 2
   m_Range: 12.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -827,7 +826,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.9
+  m_Intensity: 2
   m_Range: 12.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208

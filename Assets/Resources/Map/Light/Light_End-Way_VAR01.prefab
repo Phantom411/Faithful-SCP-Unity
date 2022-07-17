@@ -67,5 +67,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light_End-Way_VAR01
       objectReference: {fileID: 0}
+    - target: {fileID: 4722201326693522593, guid: fb4ee3a142e84134ebe764f942613a17,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb4ee3a142e84134ebe764f942613a17, type: 3}

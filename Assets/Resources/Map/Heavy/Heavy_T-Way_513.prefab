@@ -123,7 +123,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2442064818564243245
 Transform:
   m_ObjectHideFlags: 0
@@ -638,7 +638,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.34
+  m_Intensity: 2
   m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -758,12 +758,15 @@ MonoBehaviour:
   table:
   - items:
     - Spawn: {fileID: 11400000, guid: f470d064c5cb762448ebd3b1a0c374e8, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: c42aaa6b59871f641809344e24c22333, type: 2}
+      SpawnName: 
       Rate: 100
   - items:
     - Spawn: {fileID: 11400000, guid: bd4b54621d16f0a4791db4c72d1f0657, type: 2}
+      SpawnName: 
       Rate: 100
   positions:
   - {fileID: 2442064818413749970}
@@ -812,7 +815,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.07
+  m_Intensity: 3
   m_Range: 6.06
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1151,7 +1154,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.97
+  m_Intensity: 3
   m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208

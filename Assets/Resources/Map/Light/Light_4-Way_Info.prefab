@@ -45,7 +45,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2681393253207855704
 Transform:
   m_ObjectHideFlags: 0
@@ -219,9 +219,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.59
+  m_Intensity: 2
   m_Range: 10
-  m_SpotAngle: 41.647514
+  m_SpotAngle: 67.2
   m_InnerSpotAngle: 30.578627
   m_CookieSize: 10
   m_Shadows:
@@ -423,7 +423,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2681393254164696098
 Transform:
   m_ObjectHideFlags: 0
@@ -1419,12 +1419,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3e46fa9e27104b64d869e886cbfe477f, type: 3}
-      propertyPath: m_StitchLightmapSeams
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 3e46fa9e27104b64d869e886cbfe477f, type: 3}
       propertyPath: m_Materials.Array.size
       value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 3e46fa9e27104b64d869e886cbfe477f, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3e46fa9e27104b64d869e886cbfe477f, type: 3}
       propertyPath: m_Materials.Array.data[0]
